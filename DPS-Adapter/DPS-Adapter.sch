@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:DPS-Adapter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +52,7 @@ U 1 1 5AA59B04
 P 4000 2100
 F 0 "J1" H 4000 2300 50  0000 C CNN
 F 1 "Conn_01x04" H 4000 1800 50  0000 C CNN
-F 2 "" H 4000 2100 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 4000 2100 50  0001 C CNN
 F 3 "" H 4000 2100 50  0001 C CNN
 	1    4000 2100
 	1    0    0    -1  
@@ -70,7 +71,7 @@ U 1 1 5AA59DDB
 P 4000 2950
 F 0 "J2" H 4000 3150 50  0000 C CNN
 F 1 "Conn_01x04" H 4000 2650 50  0000 C CNN
-F 2 "" H 4000 2950 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 4000 2950 50  0001 C CNN
 F 3 "" H 4000 2950 50  0001 C CNN
 	1    4000 2950
 	1    0    0    -1  
@@ -89,7 +90,7 @@ U 1 1 5AA59E14
 P 5400 2100
 F 0 "J3" H 5400 2300 50  0000 C CNN
 F 1 "Conn_01x04" H 5400 1800 50  0000 C CNN
-F 2 "" H 5400 2100 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5400 2100 50  0001 C CNN
 F 3 "" H 5400 2100 50  0001 C CNN
 	1    5400 2100
 	1    0    0    -1  
@@ -108,7 +109,7 @@ U 1 1 5AA59E88
 P 5400 2950
 F 0 "J4" H 5400 3150 50  0000 C CNN
 F 1 "Conn_01x04" H 5400 2650 50  0000 C CNN
-F 2 "" H 5400 2950 50  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5400 2950 50  0001 C CNN
 F 3 "" H 5400 2950 50  0001 C CNN
 	1    5400 2950
 	1    0    0    -1  
