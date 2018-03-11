@@ -3,10 +3,10 @@
   (general
     (links 12)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 150.419999 99.619999 162.000001 111.200001)
     (thickness 1.6)
-    (drawings 0)
-    (tracks 0)
+    (drawings 4)
+    (tracks 12)
     (zones 0)
     (modules 4)
     (nets 5)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -99,6 +99,15 @@
   (net_class Default "Dies ist die voreingestellte Netzklasse."
     (clearance 0.2)
     (trace_width 0.25)
+    (via_dia 0.6)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class Power ""
+    (clearance 0.2)
+    (trace_width 0.5)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -280,5 +289,23 @@
       (rotate (xyz 0 0 270))
     )
   )
+
+  (gr_line (start 150.495 111.125) (end 150.495 99.695) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 161.925 111.125) (end 150.495 111.125) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 161.925 99.695) (end 161.925 111.125) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 150.495 99.695) (end 161.925 99.695) (layer Edge.Cuts) (width 0.15))
+
+  (segment (start 157.48 101.6) (end 160.02 101.6) (width 0.5) (layer B.Cu) (net 1))
+  (segment (start 154.94 101.6) (end 157.48 101.6) (width 0.5) (layer B.Cu) (net 1))
+  (segment (start 152.4 101.6) (end 154.94 101.6) (width 0.5) (layer B.Cu) (net 1))
+  (segment (start 154.94 104.14) (end 152.4 104.14) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 157.48 104.14) (end 154.94 104.14) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 160.02 104.14) (end 157.48 104.14) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 157.48 106.68) (end 160.02 106.68) (width 0.5) (layer B.Cu) (net 3))
+  (segment (start 154.94 106.68) (end 157.48 106.68) (width 0.5) (layer B.Cu) (net 3))
+  (segment (start 152.4 106.68) (end 154.94 106.68) (width 0.5) (layer B.Cu) (net 3))
+  (segment (start 154.94 109.22) (end 152.4 109.22) (width 0.5) (layer B.Cu) (net 4))
+  (segment (start 157.48 109.22) (end 154.94 109.22) (width 0.5) (layer B.Cu) (net 4))
+  (segment (start 160.02 109.22) (end 157.48 109.22) (width 0.5) (layer B.Cu) (net 4))
 
 )
