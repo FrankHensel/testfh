@@ -123,37 +123,37 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5200 3150
 Text Label 3650 2000 0    60   ~ 0
-a1
+FS
 Text Label 3650 2100 0    60   ~ 0
-a2
+GND
 Text Label 3650 2200 0    60   ~ 0
-a3
+F
 Text Label 3650 2300 0    60   ~ 0
-a4
+GS
 Text Label 3650 2850 0    60   ~ 0
-a1
+GS
 Text Label 3650 2950 0    60   ~ 0
-a2
+F
 Text Label 3650 3050 0    60   ~ 0
-a3
+GND
 Text Label 3650 3150 0    60   ~ 0
-a4
+FS
 Text Label 5050 2000 0    60   ~ 0
-a1
+FS
 Text Label 5050 2100 0    60   ~ 0
-a2
+GND
 Text Label 5050 2200 0    60   ~ 0
-a3
+F
 Text Label 5050 2300 0    60   ~ 0
-a4
+GS
 Text Label 5050 2850 0    60   ~ 0
-a1
+GS
 Text Label 5050 2950 0    60   ~ 0
-a2
+F
 Text Label 5050 3050 0    60   ~ 0
-a3
+GND
 Text Label 5050 3150 0    60   ~ 0
-a4
+FS
 Wire Bus Line
 	3500 1550 3500 3050
 Wire Bus Line
