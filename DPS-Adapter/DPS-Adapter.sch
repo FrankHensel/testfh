@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:DPS-Adapter-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x04 J1
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5AA59B04
 P 4000 2100
 F 0 "J1" H 4000 2300 50  0000 C CNN
@@ -66,7 +34,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2300 3800 2300
 $Comp
-L Conn_01x04 J2
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5AA59DDB
 P 4000 2950
 F 0 "J2" H 4000 3150 50  0000 C CNN
@@ -85,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3150 3800 3150
 $Comp
-L Conn_01x04 J3
+L Connector_Generic:Conn_01x04 J3
 U 1 1 5AA59E14
 P 5400 2100
 F 0 "J3" H 5400 2300 50  0000 C CNN
@@ -104,7 +72,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2300 5200 2300
 $Comp
-L Conn_01x04 J4
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5AA59E88
 P 5400 2950
 F 0 "J4" H 5400 3150 50  0000 C CNN
@@ -155,11 +123,7 @@ GND
 Text Label 5050 3150 0    60   ~ 0
 FS
 Wire Bus Line
-	3500 1550 3500 3050
-Wire Bus Line
 	3500 1550 4900 1550
-Wire Bus Line
-	4900 1550 4900 3050
 Entry Wire Line
 	3500 1900 3600 2000
 Entry Wire Line
@@ -192,4 +156,8 @@ Entry Wire Line
 	4900 2950 5000 3050
 Entry Wire Line
 	4900 3050 5000 3150
+Wire Bus Line
+	3500 1550 3500 3050
+Wire Bus Line
+	4900 1550 4900 3050
 $EndSCHEMATC

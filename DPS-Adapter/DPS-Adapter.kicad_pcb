@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
-    (links 12)
-    (no_connects 0)
-    (area 147.652381 98.295 164.76762 112.625)
     (thickness 1.6)
     (drawings 4)
     (tracks 36)
@@ -66,6 +63,9 @@
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -74,8 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -155,7 +154,7 @@
     (pad 4 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 /GS))
     (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
+      (offset (xyz 0 -3.809999942779541 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
@@ -198,7 +197,7 @@
     (pad 4 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 /FS))
     (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
+      (offset (xyz 0 -3.809999942779541 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
@@ -241,7 +240,7 @@
     (pad 4 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 4 /GS))
     (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
+      (offset (xyz 0 -3.809999942779541 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
@@ -284,7 +283,7 @@
     (pad 4 thru_hole oval (at 0 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 /FS))
     (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x04_Pitch2.54mm.wrl
-      (at (xyz 0 -0.15 0))
+      (offset (xyz 0 -3.809999942779541 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
